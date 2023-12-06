@@ -9,7 +9,7 @@ Developing DS and Algorithms from scratch.
 - Like Trie, it divides the 'key' and stores them in subsequent nodes. In my implementation, it is not necessarily at the character level.
 - If there is just one combination possible down a node, store the remaining substring in the same node. This avoids creating extra nodes.\
 _Example:_
-- insert("ORGANIZARION");\
+- insert("ORGANIZATION");\
   [""]->[ORGANIZATION]
 - insert("ZZZ");\
   [""]->[ORGANIZATION, ZZZ]
