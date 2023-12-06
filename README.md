@@ -1,7 +1,7 @@
 # Algorithms
 Developing DS and Algorithms from scratch.
 
-**1. [WordDictionary] A word dictionary to insert, search, partially search and remove words and their definitions. (without HashMap)**
+**1. [src.WordDictionary] A word dictionary to insert, search, partially search and remove words and their definitions. (without HashMap)**
 - The DS of interest to implement the given problem is a Tree.
 - Among trees, BST and Trie are popular choices with Trie being more optimized for the given use case.
 - But Tries come with the disadvantage of creating a lot of extra nodes and their references.
@@ -17,3 +17,6 @@ _Example:_
   [""]->[ORGANI->[ZATION, SM], ZZZ]
 - insert(ORGAN);\
   [""]->[ORGAN->[I]->[ZATION, SM], ZZZ]
+
+**2. [kdtree] K-d tree nearest neighbor search algorithm helps find the closest point to a given query point.**
+The implementation is a solution to this assignment: https://www.cs.princeton.edu/courses/archive/spring11/cos226/assignments/kdtree.html
