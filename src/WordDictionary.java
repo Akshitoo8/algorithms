@@ -1,10 +1,12 @@
+package src;
+
 import java.util.*;
 
 public class WordDictionary {
 
     private final Node head;
 
-    // initializes the WordDictionary
+    // initializes the src.WordDictionary
     public WordDictionary() {
         head = new Node("");
     }
